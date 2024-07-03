@@ -84,9 +84,9 @@ const PackagesFilter: React.FC = observer(() => {
           id="demo-simple-select"
           label="filter by:"
         >
-          <MenuItem><Button size="large" onClick={()=>{packageStore.filterPackages(null)}}>all</Button></MenuItem>
-          <MenuItem><Button size="large" onClick={()=>{packageStore.filterPackages(true)}}>collected packages</Button></MenuItem>
-          <MenuItem><Button size="large" onClick={()=>{packageStore.filterPackages(false)}}>not collected packages</Button></MenuItem>
+          <MenuItem><Button size="large" fullWidth onClick={()=>{packageStore.filterPackages(null)}}>all</Button></MenuItem>
+          <MenuItem><Button size="large" fullWidth onClick={()=>{packageStore.filterPackages(true)}}>collected packages</Button></MenuItem>
+          <MenuItem><Button size="large" fullWidth onClick={()=>{packageStore.filterPackages(false)}}>not collected packages</Button></MenuItem>
         </Select>
       </FormControl>
       </Search>

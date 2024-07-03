@@ -87,7 +87,7 @@ const AddPackage: React.FC = observer(() => {
                         onChange={(e) => setTrackingNumber(e.target.value)}
                     />
                     <div style={{ height: '400px', margin: '20px 0' }}>
-                        <LoadScript googleMapsApiKey='AIzaSyAYKkJ9RuUmMjrOynPQuhxiaNJf8ed81Fg'>
+                        <LoadScript googleMapsApiKey='YOUR_GOOGLE_MAPS_API_KEY'>
                             <GoogleMap
                                 mapContainerStyle={mapContainerStyle}
                                 center={center}

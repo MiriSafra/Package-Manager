@@ -7,7 +7,7 @@ import Bar from './components/Bar';
 
 const App: React.FC = observer(() => {
   useEffect(() => {
-    fetch('https://run.mocky.io/v3/5db391d9-8f54-4826-ac52-6d825806b89e').
+    fetch('https://run.mocky.io/v3/773626e9-e0ae-4077-b83a-f8769ea26e97').
       then(response => response.json()).
       then(data => {
         packageStore.setPackages(data);

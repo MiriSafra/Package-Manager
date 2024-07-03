@@ -63,14 +63,3 @@ const PackagesList: React.FC = observer(() => {
   );
 });
 export default PackagesList;
-
-// <div>
-//   {
-//     filteredPackages.map(p => (
-//       <div key={p.trackingNumber}>
-//         <h3>{p.name}</h3>
-//         <p>Tracking Number:{p.trackingNumber}</p>
-//         <p><Switch name="Collected"
-//         color="primary" checked={p.collected} onChange={()=>{toggleCollected(p.trackingNumber)}}></Switch></p>
-//         <IconButton aria-label="delete" size="large" onClick={()=>{deletePackages(p.trackingNumber)}}> <DeleteIcon fontSize="inherit" /></IconButton>
-//   </div>
